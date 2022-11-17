@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulier</title>
+</head>
+<body>
+<h1>Formulier</h1>
+<form>
+		<label for= "naam">Naam:</label>
+		<input type="text" id="voornaam" placeholder="voornaam">
+		<input type="text" id="achternaam" placeholder="achternaam">
+	<br><br>
+		<label for="email">Emailadres:</label>
+		<input type="email" id="email">
+	<br><br>
+		<label for="getal">Geef een geheel getal:</label>
+		<input type="number" id="getal">
+	<br><br>
+		<label for="geboortedatum">Geef je geboortedatum:</label>
+		<input type="date" id="geboortedatum">
+	<br><br>
+		<label for="tijdstip">Hoe laat begint de les?</label>
+		<input type="time" id="tijdstip">
+	<br><br>
+		<label for="wachtwoord">Wachtwoord:</label>
+		<input type="password" id="wachtwoord" required>
+	<br><br>
+		<label for="kleur">Welk is je lievelingskleur?</label>
+		<input type="color" id="kleur">
+	<br><br>
+		<label for="telefoonnummer">Telefoonnummer:</label>
+		<input type="tel" id="telefoonnummer">
+	<br><br>
+		<label for="maand">Geef de maand:</label>
+		<input type="month" id="maand">
+	<br><br>
+		<label for="site">Website:</label>
+		<input type="url" id="site">
+	<br><br>
+		<input type="button" id="knop" value = "Druk hier">
+	<br><br>
+		<p>Geef de gewenste dagen.</p>
+			<input type="checkbox" id="chmaandag" name="chmaandag" value="ma" unchecked>
+			<label for="chmaandag">Maandag</label>
+			<br>
+			<input type="checkbox" id="chdinsdag" name="chdinsdag" value="di" unchecked>
+			<label for="chdinsdag">Dinsdag</label>
+			<br>
+			<input type="checkbox" id="chwoensdag" name="chwoensdag" value="wo" unchecked>
+			<label for="chwoensdag">Woensdag</label>
+			<br>
+			<input type="checkbox" id="chdonderdag" name="chdonderdag" value="do" unchecked>
+			<label for="chdonderdag">Donderdag</label>
+			<br>
+			<input type="checkbox" id="chvrijdag" name="chvrijdag" value="vr" unchecked>
+			<label for="chvrijdag">Vrijdag</label>
+			<br>
+			<input type="checkbox" id="chzaterdag" name="chzaterdag" value="za" unchecked>
+			<label for="chwoensdag">Zaterdag</label>
+			<br>
+			<input type="checkbox" id="chzondag" name="chzondag" value="zo" unchecked>
+			<label for="chzondag">Zondag</label>
+	<br><br>
+	<p>Geef de gewenste dag</p>
+			<input type="radio" id="ramaandag" name = "weekdag" value="ma">
+			<label for="maandag">Maandag</label>
+		<br>
+			<input type="radio" id="radinsdag" name="weekdag" value="di">
+			<label for="dinsdag">Dinsdag</label>
+		<br>
+			<input type="radio" id="rawoensdag" name="weekdag" value="wo">
+			<label for="woensdag">Woensdag</label>
+		<br>
+			<input type="radio" id="radonderdag" name="weekdag" value="do">
+			<label for="donderdag">Donderdag</label>
+		<br>
+			<input type="radio" id="ravrijdag" name="weekdag" value="vr">
+			<label for="vrijdag">Vrijdag</label>
+		<br>
+			<input type="radio" id="razaterdag" name="weekdag" value="za">
+			<label for="woensdag">Zaterdag</label>
+		<br>
+			<input type="radio" id="razondag" name="weekdag" value="zo">
+			<label for="zondag">Zondag</label>
+	<br><br>
+		<label for="lbWeekdag">Kies een weekdag:</label>
+		<select name="lbWeekdag" id="lbWeekdag">
+			<option value="ma">Maandag</option>
+			<option value="di">Dinsdag</option>
+			<option value="wo">Woensdag</option>
+			<option value="do">Donderdag</option>
+			<option value="vr">Vrijdag</option>
+			<option value="za">Zaterdag</option>
+			<option value="zo">Zondag</option>
+	</select>
+
+
+
+	<br><br>
+	<input type="submit" id="submit" value="Verzenden">
+</form>
+</body>
+</html>
